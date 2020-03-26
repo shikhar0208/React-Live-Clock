@@ -1,0 +1,22 @@
+.header {
+  background: lighten($blue, 10%);
+}
+
+.header__content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size 0;
+  h1 {
+    color: $off-white;
+    margin: 0;
+    font-size: $font-size-medium;
+  }
+  @media (min-width: $desktop-breakpoint){
+    padding: $m-size 0;
+    h1{
+      font-size: $font-size-large;
+    }
+  }
+}
+
